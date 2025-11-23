@@ -51,3 +51,21 @@
 - Adding dates to filenames (`daily_report_2025-11-23.md`) creates automatic history
 - Better than overwriting single file - preserves all previous reports
 - Format: `YYYY-MM-DD` for proper sorting and clarity
+
+---
+
+# Learning Document: Automating Workflows with Claude Code
+
+## Topic: Automating Personal Actions and YouTube Transcript API Discovery 23-11-2025 22:02
+
+### Key Learnings
+
+#### 1. **Automating Personal Actions Through Claude Code**
+- Claude Code can write custom automation scripts for repetitive tasks
+- Created arXiv notifier with cron job for daily paper notifications
+- Preference for simple, local automations that don't expose credentials
+
+#### 2. **YouTube Transcript API Still Works with Updates**
+- YouTube transcript API remains functional and accessible
+- API has been updated from previous versions
+- Still viable option for extracting video transcripts programmatically
