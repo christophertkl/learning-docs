@@ -82,3 +82,16 @@
 - Slash commands can be created manually in the `.claude/commands/` directory
 - Commands are markdown files that define custom prompts for Claude Code
 - Enables quick reuse of common workflows and automations
+
+---
+
+# Learning Document: Strategic Project Planning
+
+## Topic: Being More Strategic About Project Selection and Impact 24-11-2025
+
+### Key Learnings
+
+#### 1. **Need to Be More Strategic for Actions Taken**
+- Important to think through how to reap the benefits of projects undertaken
+- Spending more time on strategic planning upfront can maximize project value
+- The outstanding contribution award demonstrates how much colleagues have been supported by my work
