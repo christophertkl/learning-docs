@@ -69,3 +69,16 @@
 - YouTube transcript API remains functional and accessible
 - API has been updated from previous versions
 - Still viable option for extracting video transcripts programmatically
+
+---
+
+# Learning Document: Custom Slash Commands
+
+## Topic: Manually Writing Slash Commands 23-11-2025
+
+### Key Learnings
+
+#### 1. **Learnt how to manually write a slash command**
+- Slash commands can be created manually in the `.claude/commands/` directory
+- Commands are markdown files that define custom prompts for Claude Code
+- Enables quick reuse of common workflows and automations
