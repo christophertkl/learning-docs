@@ -95,3 +95,37 @@
 - Important to think through how to reap the benefits of projects undertaken
 - Spending more time on strategic planning upfront can maximize project value
 - The outstanding contribution award demonstrates how much colleagues have been supported by my work
+
+---
+
+# Learning Document: Claude Skills
+
+## Topic: Manual creation of Claude Skills, and thinking though how they can be applied 25-11-2025
+
+### Key Learnings
+
+#### 1. **Manual creation of Claude Skills, and thinking though how they can be applied**
+
+---
+
+# Learning Document: JavaScript Console Snippets for Web Scraping
+
+## Topic: Building Reusable Console Snippets for Authenticated Content Extraction 30-11-2025
+
+### Key Learnings
+
+#### 1. **Built JavaScript Console Snippet to Extract YouTube Videos from AJAX-loaded Course Content Behind Authentication**
+- Developed console snippet to extract YouTube video links from course content requiring authentication
+- Pattern: detect sections dynamically from DOM → loop with FormData POST → regex extract from JSON response → summarize results
+- Key insight: generalize by scraping section IDs/names from page instead of hardcoding, making snippet work across all course modules
+
+#### 2. **Output Design for Manual Workflow Control**
+- Clean console logs with module context and progress indicators
+- Summary output showing total videos found and extraction status
+- No auto-copy functionality - designed for manual workflow control and user review
+
+#### 3. **Created Reusable Template for LLMs**
+- Placeholder table structure for different extraction scenarios
+- Common extraction patterns documented: YouTube, PDF, email, images
+- Adaptation checklist to help LLMs customize snippets for different sites
+- Integration: packaged as Raycast snippet with keyword trigger for fast paste-into-console workflow
