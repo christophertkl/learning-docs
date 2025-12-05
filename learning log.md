@@ -129,3 +129,31 @@
 - Common extraction patterns documented: YouTube, PDF, email, images
 - Adaptation checklist to help LLMs customize snippets for different sites
 - Integration: packaged as Raycast snippet with keyword trigger for fast paste-into-console workflow
+
+---
+
+# Learning Document: Claude Code Workflows
+
+## Topic: Attending the Claude Code workshop and learning different workflows for using skills and slash commands, Monologue 06-12-2025
+
+### Key Learnings
+
+#### 1. **Attending the Claude Code workshop and learning different workflows for using skills and slash commands, Monologue. I think today was a big day of learning the use of Monologue.**
+
+---
+
+# Learning Document: Claude Code Plugin Installation
+
+## Topic: Installing Plugins for Claude Code 06-12-2025
+
+### Key Learnings
+
+#### 1. **Plugin Marketplace Management**
+- Added custom marketplace using `/plugin marketplace add https://github.com/EveryInc/every-marketplace`
+- Marketplaces extend available plugins beyond default options
+- Successfully added every-marketplace for additional plugin sources
+
+#### 2. **Plugin Installation Process**
+- Installed compound-engineering plugin using `/plugin install compound-engineering`
+- Plugin installation requires Claude Code restart to load new plugins
+- Simple command-based installation workflow
