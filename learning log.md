@@ -157,3 +157,31 @@
 - Installed compound-engineering plugin using `/plugin install compound-engineering`
 - Plugin installation requires Claude Code restart to load new plugins
 - Simple command-based installation workflow
+
+---
+
+# Learning Document: Arduino Puzzle Box Development
+
+## Topic: Building a 4-Stage Arduino Puzzle Box and Understanding State Machines 08-12-2025
+
+### Key Learnings
+
+#### 1. **Hardware Connection and Debugging Fundamentals**
+- Arduino Uno works via USB hub to MacBook Air as long as hub and cable support data transfer
+- Debugging no-board-detected issue: verified cable was plugged into hub but NOT into the Uno itself
+- macOS expects ports like /dev/cu.usbmodem… and requires Arduino AVR Boards + correct libraries installed
+
+#### 2. **State Machine Architecture for Sequential Puzzles**
+- Built ~200-line sketch as 4-stage state machine: LDR (red LEDs when dark) → Accelerometer shake (buzzer beep) → RFID tag (green LEDs) → Hall sensor + magnet (LED chase animation)
+- Variables as state (stageone…stagefour) control sequence flow, not just individual sensor responses
+- Each stage unlocks only after previous stage completes, creating linear puzzle progression
+
+#### 3. **Debugging Helpers for State Visibility**
+- Added printStage() helper function so Serial Monitor displays current stage in real-time
+- Designed resetStages() helper to return puzzle to "Stage 0": resets all flags, RFID status, and LEDs
+- Helper functions improve debugging experience and make code easier to inspect during development
+
+#### 4. **Refactored Documentation for Educational Context**
+- Rewrote technical explanation into 4 clear sections: what device does, code organization (pins/setup/loop), concepts illustrated (variables/state & iteration), and facilitator classroom instructions
+- Framed documentation for both student understanding and facilitator teaching use
+- Created Mermaid flowchart diagram showing hardware connections: power rails, Arduino pins, sensors (LDR, Hall), and outputs (LED strip, buzzer)
