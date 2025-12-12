@@ -185,3 +185,28 @@
 - Rewrote technical explanation into 4 clear sections: what device does, code organization (pins/setup/loop), concepts illustrated (variables/state & iteration), and facilitator classroom instructions
 - Framed documentation for both student understanding and facilitator teaching use
 - Created Mermaid flowchart diagram showing hardware connections: power rails, Arduino pins, sensors (LDR, Hall), and outputs (LED strip, buzzer)
+
+---
+
+# Learning Document: Game Master Prompts for Skills Learning
+
+## Topic: Using AI Game Master Prompts to Generate Learning Scenarios 12-12-2025
+
+### Key Learnings
+
+#### 1. **Game Master Prompts as Educational Tool**
+- Created game master prompt that generates interactive scenarios for different skills
+- Fun, engaging approach to learning technical and non-technical concepts
+- Scenarios can be tailored to specific skills the learner wants to develop
+
+#### 2. **Factual Verification Concerns for Technical Content**
+- Key concern: ensuring accuracy of technical concepts taught through generated scenarios
+- Game master prompts may prioritize engagement over factual precision
+- Need verification mechanism for technical accuracy in educational content
+
+#### 3. **Playtesting Methodology for Educational Tools**
+- Distributed game master prompt scenarios to others for playtesting
+- Playtesting helps validate both engagement and educational effectiveness
+- User testing provides feedback on factual accuracy and learning outcomes
+
+---
