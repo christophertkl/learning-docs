@@ -210,3 +210,21 @@
 - User testing provides feedback on factual accuracy and learning outcomes
 
 ---
+
+# Learning Document: Claude Code File Size Limitations and Python Web Protocols
+
+## Topic: Working Around File Size Constraints and Encountering WSGI/ASGI 20-12-2025
+
+### Key Learnings
+
+#### 1. **File Size Limitations in Claude Code and Workaround Strategy**
+- Encountered "file size too big" error when working with large files in Claude Code
+- Successfully overcame limitation by delegating work to chatbot applications instead
+- Demonstrates flexibility in toolchain - use appropriate tool for each constraint
+
+#### 2. **WSGI vs ASGI Protocol Distinction (Learning in Progress)**
+- Encountered different protocols (WSGI vs ASGI) in separate Python web project
+- Currently don't fully understand the differences between these protocols
+- Identified knowledge gap to explore further for web application development
+
+---
