@@ -228,3 +228,26 @@
 - Identified knowledge gap to explore further for web application development
 
 ---
+
+# Learning Document: ESP32 Development Basics
+
+## Topic: PIR Sensor Setup, WiFi Connection, and Device Debugging 20-12-2025
+
+### Key Learnings
+
+#### 1. **PIR Sensor Setup - Reading Digital Input from Motion Sensor**
+- PIR (Passive Infrared) sensors detect motion by reading digital input signals
+- ESP32 can read sensor state to trigger actions based on motion detection
+- All project files follow naming convention: `esp32_*`
+
+#### 2. **WiFi Connection - Getting ESP32 Online**
+- ESP32 can connect to WiFi networks for IoT functionality
+- Connection status can be checked and monitored programmatically
+- Enables remote communication and cloud integration capabilities
+
+#### 3. **Terminal Debugging - Device Identification**
+- Use `ls /dev/cu.*` command to identify connected ESP32 devices on macOS
+- Terminal-based debugging helps locate USB-connected microcontrollers
+- Essential for verifying board connection before uploading code
+
+---
