@@ -251,3 +251,26 @@
 - Essential for verifying board connection before uploading code
 
 ---
+
+# Learning Document: Claude Interface File Type Limitations
+
+## Topic: PowerPoint File Handling and Hallucination Behavior 24-12-2025
+
+### Key Learnings
+
+#### 1. **Claude Cannot Read PowerPoint Files Despite Tool Availability**
+- Claude interface claims to support various file types but cannot actually read .pptx files
+- Read tool does not have native PowerPoint parsing capability
+- Attempting to read .pptx files results in gibberish or parsing errors
+
+#### 2. **Hallucination Risk When Working with Unsupported Formats**
+- Claude may hallucinate content when asked about files it cannot properly read
+- System does not properly reject or warn about incompatible file types
+- Creates false confidence in ability to process PowerPoint content
+
+#### 3. **Workaround: Alternative Approaches for PowerPoint Content**
+- Convert .pptx to supported formats (PDF, images, or extracted text) before analysis
+- Use external tools to extract content before providing to Claude
+- Verify Claude's actual capability before trusting outputs on file types
+
+---
