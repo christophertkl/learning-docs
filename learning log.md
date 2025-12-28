@@ -274,3 +274,27 @@
 - Verify Claude's actual capability before trusting outputs on file types
 
 ---
+
+# Learning Document: ChatGPT Mode Selection Strategy
+
+## Topic: Choosing Between Thinking Mode and Instant Mode for Task Efficiency 29-12-2025
+
+### Key Learnings
+
+#### 1. **Thinking Mode Performance Issue for Transcription Tasks**
+- ChatGPT thinking mode proved too slow for transcription work
+- Processing time outweighed benefits for this specific task type
+- Speed became bottleneck rather than quality improvement
+
+#### 2. **Instant Mode as Better Alternative for Certain Tasks**
+- Instant mode delivered better results for transcription despite less processing time
+- Not all tasks benefit from extended reasoning - some require fast execution
+- Task characteristics should drive mode selection, not default assumptions
+
+#### 3. **Hybrid Workflow Pattern: Handover Memo Strategy**
+- Used thinking mode to generate detailed handover memo for instant mode
+- Thinking mode excels at strategic planning and context preparation
+- Instant mode then executes based on clear instructions from handover memo
+- Combines strengths of both modes: strategic planning + fast execution
+
+---
